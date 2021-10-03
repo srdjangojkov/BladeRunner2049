@@ -1,286 +1,295 @@
 <!DOCTYPE html>
 <html lang="sr">
-	<head>
-		<title>Blade Runner 2049</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="style.css">
-		<!-- JQuery skripta -->
-		<script src="js/jquery-2.1.3.min.js"></script>
-	</head>
-	<body>
-		<!-- Header -->
-		<header class="header">
-			<div class="logo">
-				<a href="#hero">
-					<img src="images/logo.svg" alt="Blade Runner logo"/>
-				</a>
-				<button class="hamburger">&#9776;</button>
-				<button class="cross">&#735;</button>
-			</div>
-			<nav class="navbar">
-				<ul>
-					<li class="navbar-item">
-						<a class="nav-link" href="#movie-info">Radnja</a>
-					</li>
-					<li class="navbar-item">
-						<a class="nav-link" href="#actors">Glumci</a>
-					</li>
-					<li class="navbar-item">
-						<a class="nav-link" href="#critics">Recenzije</a>
-					</li>
-					<li class="navbar-item">
-						<a class="nav-link res-link" href="#name">Rezerviši</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<!-- Hero -->
-			<section id="hero">
-				<div class="hero-one">
-					<div class="hero-header">
-						<h1 class="hero-title">BLADE RUNNER<br>2049</h1>
-						<p class="hero-text">Ključ budućnosti konačno je otkriven.</p>
-						<p class="hero-info">2017&nbsp;/&nbsp;</p>
-						<p class="hero-info">Akcija, Sci-Fi&nbsp;&nbsp;/&nbsp;</p>
-						<p class="hero-info rating">IMDB 8/10 &#9733;</p><br>
-						<a class="trailer-btn" href="#teaser" onclick="playVideo()"><span>Pogledaj najavu&nbsp;&#9658;</span></a>
-					</div>
+
+<head>
+	<title>Blade Runner 2049</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="logo">
+			<a href="#hero">
+				<img src="images/logo.svg" alt="Blade Runner logo">
+			</a>
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+		</div>
+		<nav class="navbar">
+			<ul>
+				<li class="navbar-item">
+					<a class="nav-link" href="#movie-info">Radnja</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="#actors">Glumci</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="#critics">Recenzije</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link res-link" href="#name">Rezerviši</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="hero">
+			<div class="hero-one">
+				<div class="hero-header">
+					<h1 class="hero-title">BLADE RUNNER<br>2049</h1>
+					<p class="hero-text">Ključ budućnosti konačno je otkriven.</p>
+					<p class="hero-info">2017&nbsp;/&nbsp;</p>
+					<p class="hero-info">Akcija, Sci-Fi&nbsp;&nbsp;/&nbsp;</p>
+					<p class="hero-info rating">IMDB 8/10 &#9733;</p><br>
+					<a class="trailer-btn" href="#teaser" onclick="playVideo()">
+						<span>Pogledaj najavu&nbsp;&#9658;</span>
+					</a>
 				</div>
-				<div class="hero_two">
-					<figure class="banner-container">
-						<img src="images/banner.jpg" alt="baner slika" class="banner-1">
-						<figcaption>
+			</div>
+			<div class="hero_two">
+				<figure class="banner-container">
+					<img src="images/banner.jpg" alt="baner slika" class="banner-1">
+					<figcaption>
 						<h3>Rezerviši</h3>
 						<a href="#name"></a>
-						</figcaption>
-					</figure>
-					<div class="div-toggle">
-						<img src="images/apple-tv.png" alt="apple-tv logo">
-						<img src="images/google-play.png" alt="google play logo">
-						<img src="images/primevideo.png" alt="primevideo logo">
-					</div>
+					</figcaption>
+				</figure>
+				<div class="div-toggle">
+					<img src="images/apple-tv.png" alt="apple-tv logo">
+					<img src="images/google-play.png" alt="google play logo">
+					<img src="images/primevideo.png" alt="primevideo logo">
 				</div>
-				
-				<img src="images/gun.svg" class="gun-icon" alt="pozadinska ikonica">
-				<img src="images/bg-elements.svg" alt="pozadinska ikonica" class="bg-element bg-element-1">
-				<img src="images/bg-elements.svg" alt="pozadinska ikonica" class="bg-element bg-element-2">
-			</section>
-			
-			<div id="wrapper">
-				<!-- Prva sekcija -->
-				<section id="movie-info">
-					<article class="story">
-						<div class="glow">
-							<h3 class="title">Radnja</h3>
-							<p>Trideset godina nakon događaja iz prvog filma, novi Blejd Raner, losanđeleski policajac Kej (Rajan Gosling), otkriva davno zakopanu tajnu koja može da uvede ono što je ostalo od društva u totalni haos.<br><br>Kej kreće u potragu za Rikom Dekardom (Harison Ford), bivšim Blejd Ranerom koji je nestao pre 30 godina.</p>
-						</div>
-					</article>
-					<article class="credits">
-						<h3 class="title">Produkcija</h3>
-						<p class="credits-info">Režija</p>
-						<p>Denis Villeneuve</p><br>
-						<p class="credits-info">Scenario</p>
-						<p>Hampton Fancher</p><br>
-						<p class="credits-info">Direktor fotografije</p>
-						<p>Roger Deakins</p>
-					</article>
-					<article class="team-info">
-						<h3 class="title">Informacije</h3>
-						<p class="credits-info">Datum izlaska</p>
-						<p>6. oktobar 2017. (SAD)</p><br>
-						<p class="credits-info">Budžet</p>
-						<p>$150,000,000</p><br>
-						<p class="credits-info">Trajanje</p>
-						<p>164 min</p>
-					</article>
-				</section>
-				<!-- Druga sekcija -->
-				<h2 class="title">Glumačka ekipa</h2>
-				<section id="actors">
-					<div class="actor-wrapper">
-						<div class="card-image first-actor"></div>
-						<div class="bottom">
-							<div class="card-text">
-								<div class="details">
-									<h4>Ryan Gosling</h4>
-									<h5>Agent K</h5>
-								</div>
-							</div>
-						</div>
-						<div class="inside">
-							<div class="icon">&#9432;</div>
-							<div class="contents">
-								<a href="https://www.imdb.com/name/nm0331516/"><img src="images/imdb.png" alt="imdb logo"></a>
-							</div>
-						</div>
-					</div>
-					<div class="actor-wrapper">
-						<div class="card-image second-actor"></div>
-						<div class="bottom">
-							<div class="card-text">
-								<div class="details">
-									<h4>Dave Bautista</h4>
-									<h5>Sapper Morton</h5>
-								</div>
-							</div>
-						</div>
-						<div class="inside">
-							<div class="icon">&#9432;</div>
-							<div class="contents">
-								<a href="https://www.imdb.com/name/nm1176985/"><img src="images/imdb.png" alt="imdb logo"></a>
-							</div>
-						</div>
-					</div>
-					<div class="actor-wrapper">
-						<div class="card-image third-actor"></div>
-						<div class="bottom">
-							<div class="card-text">
-								<div class="details">
-									<h4>Robin Wright</h4>
-									<h5>Lieutenant Joshi</h5>
-								</div>
-							</div>
-						</div>
-						<div class="inside">
-							<div class="icon">&#9432;</div>
-							<div class="contents">
-								<a href="https://www.imdb.com/name/nm0000705/"><img src="images/imdb.png" alt="imdb logo"></a>
-							</div>
-						</div>
-					</div>
-					<div class="actor-wrapper">
-						<div class="card-image fourth-actor"></div>
-						<div class="bottom">
-							<div class="card-text">
-								<div class="details">
-									<h4>Ana de Armas</h4>
-									<h5>Joi</h5>
-								</div>
-							</div>
-						</div>
-						<div class="inside">
-							<div class="icon">&#9432;</div>
-							<div class="contents">
-								<a href="https://www.imdb.com/name/nm1869101/"><img src="images/imdb.png" alt="imdb logo"></a>
-							</div>
-						</div>
-					</div>
-				</section>
 			</div>
-			
-			<!-- Treća sekcija -->
-			<section id="critics">
-				<h2 class="title rev-title">Recenzije</h2>
-				<article class="critics">
-					<figure class="banner-container">
-						<img src="images/banner2.jpg" alt="slika" class="banner-2">
-						<figcaption>
-						<h3>Rezerviši</h3>
-						<a href="#name"></a>
-						</figcaption>
-						
-					</figure>
-					<div class="card card-1">
-						<p id="card-1">Od zagasitih sela izvan kojih se nebo zatvorilo poput poklopca, preko grozničave neonske dekadencije Los Anđelesa, do olupine od Las Vegasa - film je vizuelni sjaj prvog reda.</p>
-						<h4>The Atlantic</h4>
-						<h3>Christopher Orr<span>Top Kritičar &#9733;</span></h3>
-					</div>
-					<div class="card card-2">
-						<p id="card-2">Meditativan i dirljiv film koji je raskošno snimio legendarni kinematograf Roger Deakins u najboljem i najupečatljivijem delu svoje karijere.</p>
-						<h4>Tribune News Service</h4>
-						<h3>Katie Walsh <span>Top Kritičar &#9733;</span></h3>
-					</div>
-					<div class="card card-3">
-						<p id="card-3">Redak nastavak koji je zaista vredan svog postojanja, ažurira i proširuje temu originala iz 1982. godine da bi je preveo iz 20. u 21. vek.</p>
-						<h4>Globe and Mail</h4>
-						<h3>Kate Taylor <span>Top Kritičar &#9733;</span></h3>
+			<img src="images/gun.svg" class="gun-icon" alt="pozadinska ikonica">
+			<img src="images/bg-elements.svg" alt="pozadinska ikonica" class="bg-element bg-element-1">
+			<img src="images/bg-elements.svg" alt="pozadinska ikonica" class="bg-element bg-element-2">
+		</section>
+		<div id="wrapper">
+			<section id="movie-info">
+				<article class="story">
+					<div class="glow">
+						<h3 class="title">Radnja</h3>
+						<p>Trideset godina nakon događaja iz prvog filma, novi Blejd Raner, losanđeleski policajac Kej
+							(Rajan Gosling), otkriva davno zakopanu tajnu koja može da uvede ono što je ostalo od
+							društva u totalni haos.<br><br>Kej kreće u potragu za Rikom Dekardom (Harison Ford), bivšim
+							Blejd Ranerom koji je nestao pre 30 godina.</p>
 					</div>
 				</article>
-				<div class="percentage"><h3 id="percentage">Ukupan skor kritičara: 87%</h3>
+				<article class="credits">
+					<h3 class="title">Produkcija</h3>
+					<p class="credits-info">Režija</p>
+					<p>Denis Villeneuve</p><br>
+					<p class="credits-info">Scenario</p>
+					<p>Hampton Fancher</p><br>
+					<p class="credits-info">Direktor fotografije</p>
+					<p>Roger Deakins</p>
+				</article>
+				<article class="team-info">
+					<h3 class="title">Informacije</h3>
+					<p class="credits-info">Datum izlaska</p>
+					<p>6. oktobar 2017. (SAD)</p><br>
+					<p class="credits-info">Budžet</p>
+					<p>$150,000,000</p><br>
+					<p class="credits-info">Trajanje</p>
+					<p>164 min</p>
+				</article>
+			</section>
+			<h2 class="title">Glumačka ekipa</h2>
+			<section id="actors">
+				<div class="actor-wrapper">
+					<div class="card-image first-actor"></div>
+					<div class="bottom">
+						<div class="card-text">
+							<div class="details">
+								<h4>Ryan Gosling</h4>
+								<h5>Agent K</h5>
+							</div>
+						</div>
+					</div>
+					<div class="inside">
+						<div class="icon">&#9432;</div>
+						<div class="contents">
+							<a href="https://www.imdb.com/name/nm0331516/">
+								<img src="images/imdb.png" alt="IMDB logo">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="actor-wrapper">
+					<div class="card-image second-actor"></div>
+					<div class="bottom">
+						<div class="card-text">
+							<div class="details">
+								<h4>Dave Bautista</h4>
+								<h5>Sapper Morton</h5>
+							</div>
+						</div>
+					</div>
+					<div class="inside">
+						<div class="icon">&#9432;</div>
+						<div class="contents">
+							<a href="https://www.imdb.com/name/nm1176985/">
+								<img src="images/imdb.png" alt="imdb logo">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="actor-wrapper">
+					<div class="card-image third-actor"></div>
+					<div class="bottom">
+						<div class="card-text">
+							<div class="details">
+								<h4>Robin Wright</h4>
+								<h5>Lieutenant Joshi</h5>
+							</div>
+						</div>
+					</div>
+					<div class="inside">
+						<div class="icon">&#9432;</div>
+						<div class="contents">
+							<a href="https://www.imdb.com/name/nm0000705/">
+								<img src="images/imdb.png" alt="imdb logo">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="actor-wrapper">
+					<div class="card-image fourth-actor"></div>
+					<div class="bottom">
+						<div class="card-text">
+							<div class="details">
+								<h4>Ana de Armas</h4>
+								<h5>Joi</h5>
+							</div>
+						</div>
+					</div>
+					<div class="inside">
+						<div class="icon">&#9432;</div>
+						<div class="contents">
+							<a href="https://www.imdb.com/name/nm1869101/">
+								<img src="images/imdb.png" alt="imdb logo">
+							</a>
+						</div>
+					</div>
 				</div>
 			</section>
-			<section id="teaser">
-				<h2 class="title teaser-title">Najava</h2>
-				<video id="teaser-vid" controls>
-					<source src="images/teaser.mp4" type="video/mp4">
-					Vaš čitač ne podržava video element.
-				</video>
-			</section>
-			
-			<form>
-				<h1 class="title form-title">Gledaj film</h1>
-				<label for="name">Ime i prezime</label>
-				<input type="text" id="name" name="name" required>
-				<label for="email">E-mail</label>
-				<input type="email" id="email" name='email' required>
-				<label>Datum projekcije</label>
-				<input type="date" id="date" name="date">
-				<label>Bioskop</label>
-				<select name="cinemas">
-					<option value="" hidden>Izaberi...</option>
-					<option value="delta" >Cineplexx 4D Delta City</option>
-					<option value="big">Cineplexx BIG Beograd</option>
-					<option value="plaza">Cineplexx Kragujevac Plaza</option>
-					<option value="nis">Cineplexx Niš</option>
-					<option value="promenada">Cineplexx Promenada</option>
-					<option value="usce">Cineplexx UŠĆE Shopping Center</option>
-				</select>
-				<label>Vreme projekcije</label>
-				<select name="cinemas">
-					<option value="" hidden>Izaberi...</option>
-					<option value="17h">17h</option>
-					<option value="20h">20h</option>
-					<option value="23h">23h</option>
-				</select>
-				<input type="submit" value="Pošalji">
-			</form>
-			
-			<aside class="watch">
-				<img src="images/apple-tv.png" alt="apple tv logo">
-				<img src="images/google-play.png" alt="google play logo">
-				<img src="images/primevideo.png" alt="primevideo logo">
-			</aside>
-		</main>
-		<footer>
-			<!-- Footer main -->
-			<div class="ft-main">
-				<div class="ft-main-item">
-					<h2 class="ft-title">O filmu</h2>
-					<ul>
-						<li><a href="https://www.imdb.com/title/tt1856101/">IMDB</a></li>
-						<li><a href="https://www.rottentomatoes.com/m/blade_runner_2049">Rotten Tomatoes</a></li>
-						<li><a href="https://en.wikipedia.org/wiki/Blade_Runner_2049">Wikipedia</a></li>
-					</ul>
+		</div>
+		<section id="critics">
+			<h2 class="title rev-title">Recenzije</h2>
+			<article class="critics">
+				<figure class="banner-container">
+					<img src="images/banner2.jpg" alt="slika" class="banner-2">
+					<figcaption>
+						<h3>Rezerviši</h3>
+						<a href="#name"></a>
+					</figcaption>
+				</figure>
+				<div class="card card-1">
+					<p id="card-1">Od zagasitih sela izvan kojih se nebo zatvorilo poput poklopca, preko grozničave
+						neonske dekadencije Los Anđelesa, do olupine od Las Vegasa - film je vizuelni sjaj prvog reda.
+					</p>
+					<h4>The Atlantic</h4>
+					<h3>Christopher Orr<span>Top Kritičar &#9733;</span></h3>
 				</div>
-				<div class="ft-main-item">
-					<h2 class="ft-title">Saradnici</h2>
-					<ul>
-						<li><a href="https://www.alconent.com/">Alcon Ent.</a></li>
-						<li><a href="https://www.sonypictures.com/">Columbia Pictures</a></li>
-						<li><a href="https://www.sonypictures.com/">Sony</a></li>
-					</ul>
+				<div class="card card-2">
+					<p id="card-2">Meditativan i dirljiv film koji je raskošno snimio legendarni kinematograf Roger
+						Deakins u najboljem i najupečatljivijem delu svoje karijere.</p>
+					<h4>Tribune News Service</h4>
+					<h3>Katie Walsh <span>Top Kritičar &#9733;</span></h3>
 				</div>
+				<div class="card card-3">
+					<p id="card-3">Redak nastavak koji je zaista vredan svog postojanja, ažurira i proširuje temu
+						originala iz 1982. godine da bi je preveo iz 20. u 21. vek.</p>
+					<h4>Globe and Mail</h4>
+					<h3>Kate Taylor <span>Top Kritičar &#9733;</span></h3>
+				</div>
+			</article>
+			<div class="percentage">
+				<h3 id="percentage">Ukupan skor kritičara: 87%</h3>
 			</div>
-			
-			<div class="ft-social">
-				<ul class="ft-social-list">
-					<li><a href="https://www.facebook.com/bladerunner2049/" target="_blank" rel="noopener"><img src="images/fb.png" alt="fb logo"></a></li>
-					<li><a href="https://twitter.com/bladerunner" target="_blank" rel="noopener"><img src="images/tw.png" alt="twitter logo"></a></li>
-					<li><a href="https://www.instagram.com/bladerunnermovie/" target="_blank" rel="noopener"><img src="images/insta.png" alt="insta logo"></a></li>
+		</section>
+		<section id="teaser">
+			<h2 class="title teaser-title">Najava</h2>
+			<video id="teaser-vid" controls>
+				<source src="images/teaser.mp4" type="video/mp4">
+				Vaš čitač ne podržava video element.
+			</video>
+		</section>
+		<form>
+			<h1 class="title form-title">Gledaj film</h1>
+			<label for="name">Ime i prezime</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">E-mail</label>
+			<input type="email" id="email" name='email' required>
+			<label>Datum projekcije</label>
+			<input type="date" id="date" name="date">
+			<label>Bioskop</label>
+			<select name="cinemas">
+				<option value="" hidden>Izaberi...</option>
+				<option value="delta">Cineplexx 4D Delta City</option>
+				<option value="big">Cineplexx BIG Beograd</option>
+				<option value="plaza">Cineplexx Kragujevac Plaza</option>
+				<option value="nis">Cineplexx Niš</option>
+				<option value="promenada">Cineplexx Promenada</option>
+				<option value="usce">Cineplexx UŠĆE Shopping Center</option>
+			</select>
+			<label>Vreme projekcije</label>
+			<select name="cinemas">
+				<option value="" hidden>Izaberi...</option>
+				<option value="17h">17h</option>
+				<option value="20h">20h</option>
+				<option value="23h">23h</option>
+			</select>
+			<input type="submit" value="Pošalji">
+		</form>
+		<aside class="watch">
+			<img src="images/apple-tv.png" alt="apple tv logo">
+			<img src="images/google-play.png" alt="google play logo">
+			<img src="images/primevideo.png" alt="primevideo logo">
+		</aside>
+	</main>
+	<footer>
+		<div class="ft-main">
+			<div class="ft-main-item">
+				<h2 class="ft-title">O filmu</h2>
+				<ul>
+					<li><a href="https://www.imdb.com/title/tt1856101/">IMDB</a></li>
+					<li><a href="https://www.rottentomatoes.com/m/blade_runner_2049">Rotten Tomatoes</a></li>
+					<li><a href="https://en.wikipedia.org/wiki/Blade_Runner_2049">Wikipedia</a></li>
 				</ul>
 			</div>
-			
-			<div class="ft-legal">
-				<ul class="ft-legal-list">
-					<li>Uslovi korišćenja</li>
-					<li>Politika privatnosti</li>
-					<li>&copy; 2020 Blade Runner</li>
+			<div class="ft-main-item">
+				<h2 class="ft-title">Saradnici</h2>
+				<ul>
+					<li><a href="https://www.alconent.com/">Alcon Ent.</a></li>
+					<li><a href="https://www.sonypictures.com/">Columbia Pictures</a></li>
+					<li><a href="https://www.sonypictures.com/">Sony</a></li>
 				</ul>
 			</div>
-		</footer>
-		<script src="js/hamburger.js"></script>
-		<script src="js/script.js"></script>
-	</body>
+		</div>
+		<div class="ft-social">
+			<ul class="ft-social-list">
+				<li><a href="https://www.facebook.com/bladerunner2049/" target="_blank" rel="noopener"><img
+							 src="images/fb.png" alt="fb logo"></a></li>
+				<li><a href="https://twitter.com/bladerunner" target="_blank" rel="noopener"><img src="images/tw.png"
+							 alt="twitter logo"></a></li>
+				<li><a href="https://www.instagram.com/bladerunnermovie/" target="_blank" rel="noopener"><img
+							 src="images/insta.png" alt="insta logo"></a></li>
+			</ul>
+		</div>
+		<div class="ft-legal">
+			<ul class="ft-legal-list">
+				<li>Uslovi korišćenja</li>
+				<li>Politika privatnosti</li>
+				<li>&copy; 2020 Blade Runner</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/hamburger.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
 </html>
