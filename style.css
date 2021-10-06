@@ -649,9 +649,12 @@ header {
   font-size: 1.2vw;
   transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow;
   padding: 13px 26px;
-  cursor: pointer;
   border-left: 3px solid #7713d9;
   transition: .5s;
+}
+
+.card p {
+  cursor: pointer;
 }
 
 .card-1 {
